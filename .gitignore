@@ -1,1 +1,3 @@
 venv/
+_credentials.py
+fabfile.py
