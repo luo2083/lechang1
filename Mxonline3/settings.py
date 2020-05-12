@@ -94,7 +94,7 @@ WSGI_APPLICATION = 'Mxonline3.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': 'mxonline3',
+        'NAME': 'mxonline',
         'USER': 'luo',
         'PASSWORD': '@klj905789',
         'HOST': 'localhost',
