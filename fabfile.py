@@ -35,7 +35,7 @@ def _get_github_auth_responders():
 def deploy(c):
     supervisor_conf_path = '~/etc/'
 
-    supervisor_program_name = 'lechang'
+    supervisor_program_name = 'lechang1'
 
     project_root_path = '~/apps/lechang1/'
 
