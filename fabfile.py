@@ -58,7 +58,7 @@ def deploy(c):
     # 安装依赖，迁移数据库，收集静态文件
 
     with c.cd(project_root_path):
-        c.run('pip install requirements.txt')
+        c.run('/home/luo/apps/lechang1/venv/bin/pip install requirements.txt')
 
         c.run('python3 manage.py migrate')
 
